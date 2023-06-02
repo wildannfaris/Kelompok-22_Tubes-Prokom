@@ -1,0 +1,185 @@
+{
+    "gojek": 
+    [{
+        "layanan": "Go Ride", "provinsi": 
+        {
+            "Jawa Tengah": {
+                "harga_per_km": 1850,
+                "harga_minimum": 8000
+            },
+            "Jawa Timur": {
+                "harga_per_km": 1700,
+                "harga_minimum": 7500
+            },
+            "Jawa Barat": {
+                "harga_per_km": 1900,
+                "harga_minimum": 8000
+            },
+            "Banten": {
+                "harga_per_km": 1800,
+                "harga_minimum": 7500
+            },
+            "Yogyakarta": {
+                "harga_per_km": 1650,
+                "harga_minimum": 7000
+            },
+            "Jakarta": {
+                "harga_per_km": 2200,
+                "harga_minimum": 10000
+            }
+        }
+    },
+    {
+        "layanan": "Go Car", "provinsi": 
+        {
+            "Jawa Tengah": {
+                "harga_per_km": 3200,
+                "harga_minimum": 12000
+            },
+            "Jawa Timur": {
+                "harga_per_km": 2900,
+                "harga_minimum": 10000
+            },
+            "Jawa Barat": {
+                "harga_per_km": 3300,
+                "harga_minimum": 12500
+            },
+            "Banten": {
+                "harga_per_km": 3000,
+                "harga_minimum": 12000
+            },
+            "Yogyakarta": {
+                "harga_per_km": 2750,
+                "harga_minimum": 10000
+            },
+            "Jakarta": {
+                "harga_per_km": 3500,
+                "harga_minimum": 15000
+            }
+        }
+    },
+    {
+        "layanan": "Go Send", "provinsi": 
+        {
+            "Jawa Tengah": {
+                "harga_per_km": 2313,
+                "harga_minimum": 8750
+            },
+            "Jawa Timur": {
+                "harga_per_km": 2270,
+                "harga_minimum": 8250
+            },
+            "Jawa Barat": {
+                "harga_per_km": 2420,
+                "harga_minimum": 9000
+            },
+            "Banten": {
+                "harga_per_km": 2300,
+                "harga_minimum": 8500
+            },
+            "Yogyakarta": {
+                "harga_per_km": 2200,
+                "harga_minimum": 8250
+            },
+            "Jakarta": {
+                "harga_per_km": 2815,
+                "harga_minimum": 13000
+            }
+        }
+    },
+    {
+        "layanan": "Go Box", "ukuran": 
+        {
+            "small": 
+            {
+                "provinsi": 
+                {
+                    "Jawa Tengah": {
+                        "harga_per_km": 7500,
+                        "harga_minimum": 102000
+                    },
+                    "Jawa Timur": {
+                        "harga_per_km": 7000,
+                        "harga_minimum": 152000
+                    },
+                    "Jawa Barat": {
+                        "harga_per_km": 8000,
+                        "harga_minimum": 132000
+                    },
+                    "Banten": {
+                        "harga_per_km": 7200,
+                        "harga_minimum": 102000
+                    },
+                    "Yogyakarta": {
+                        "harga_per_km": 7000,
+                        "harga_minimum": 87000
+                    },
+                    "Jakarta": {
+                        "harga_per_km": 8000,
+                        "harga_minimum": 152000
+                    }
+                }
+            },
+            "medium": 
+            {
+                "provinsi": 
+                {
+                    "Jawa Tengah": {
+                        "harga_per_km": 9000,
+                        "harga_minimum": 282000
+                    },
+                    "Jawa Timur": {
+                        "harga_per_km": 8700,
+                        "harga_minimum": 302000
+                    },
+                    "Jawa Barat": {
+                        "harga_per_km": 9200,
+                        "harga_minimum": 282000
+                    },
+                    "Banten": {
+                        "harga_per_km": 8500,
+                        "harga_minimum": 277000
+                    },
+                    "Yogyakarta": {
+                        "harga_per_km": 8200,
+                        "harga_minimum": 202500
+                    },
+                    "Jakarta": {
+                        "harga_per_km": 9500,
+                        "harga_minimum": 302000
+                    }
+                }
+            },
+            "large":
+            {
+                "provinsi":
+                {
+                    "Jawa Tengah": {
+                        "harga_per_km": 9500,
+                        "harga_minimum": 299500
+                    },
+                    "Jawa Timur": {
+                        "harga_per_km": 9200,
+                        "harga_minimum": 332000
+                    },
+                    "Jawa Barat": {
+                        "harga_per_km": 9800,
+                        "harga_minimum": 302500
+                    },
+                    "Banten": {
+                        "harga_per_km": 9000,
+                        "harga_minimum": 297000
+                    },
+                    "Yogyakarta": {
+                        "harga_per_km": 8900,
+                        "harga_minimum": 169500
+                    },
+                    "Jakarta": {
+                        "harga_per_km": 10000,
+                        "harga_minimum": 347000
+                    }
+                }
+            }
+        }
+    }]
+}
