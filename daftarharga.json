@@ -58,6 +58,73 @@
             }
         }
     },
+        {
+    "maxim": 
+    [{
+        "layanan": "maxim delivery", "provinsi": 
+        {
+            "Jawa Tengah": {
+                "harga_per_km": 1800,
+                "harga_minimum": 8000
+            },
+            "Jawa Timur": {
+                "harga_per_km": 2090,
+                "harga_minimum":8000
+            },
+            "Jawa Barat": {
+                "harga_per_km": 2400,
+                "harga_minimum": 8000
+            },
+            "Banten": {
+                "harga_per_km": 1400,
+                "harga_minimum": 8000
+            },
+            "Yogyakarta": {
+                "harga_per_km": 1650,
+                "harga_minimum": 8000
+            },
+            "Jakarta": {
+                "harga_per_km": 3000,
+                "harga_minimum": 9000
+            }
+        }
+    },
+    {
+        "layanan": "Maxim Box", "ukuran": 
+        {
+            "small": 
+            {
+                "provinsi": 
+                {
+                    "Jawa Tengah": {
+                        "harga_per_km": 12000,
+                        "harga_minimum": 70000
+                    },
+                    "Jawa Timur": {
+                        "harga_per_km": 12000,
+                        "harga_minimum": 70000
+                    },
+                    "Jawa Barat": {
+                        "harga_per_km": 12000,
+                        "harga_minimum": 70000
+                    },
+                    "Banten": {
+                        "harga_per_km": 12000,
+                        "harga_minimum": 70000
+                    },
+                    "Yogyakarta": {
+                        "harga_per_km": 12000,
+                        "harga_minimum": 70000
+                    },
+                    "Jakarta": {
+                        "harga_per_km": 12000,
+                        "harga_minimum": 70000
+                    }
+                }
+            }
+        }
+    }]
+}
     "gojek": 
     [{
         "layanan": "Go Ride", "provinsi": 
