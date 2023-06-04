@@ -58,9 +58,7 @@
             }
         }
     },
-        {
-    "maxim": 
-    [{
+    {
         "layanan": "Maxim Delivery", "provinsi": 
         {
             "Jawa Tengah": {
@@ -89,7 +87,7 @@
             }
         }
     },
-    {
+   {
         "layanan": "Maxim Box", "ukuran": 
         {
             "small": 
@@ -121,74 +119,69 @@
                         "harga_minimum": 70000
                     }
                 }
+            },
+            "medium":
+            {
+                "provinsi":
+                {
+                    "Jawa Tengah": {
+                        "harga_per_km": 3000,
+                        "harga_minimum": 7000
+                    },
+                    "Jawa Timur": {
+                        "harga_per_km": 2800,
+                        "harga_minimum": 10000
+                    },
+                    "Jawa Barat": {
+                        "harga_per_km": 3800,
+                        "harga_minimum": 13000
+                    },
+                    "Banten": {
+                        "harga_per_km": 5100,
+                        "harga_minimum": 16000
+                    },
+                    "Yogyakarta": {
+                        "harga_per_km": 3500,
+                        "harga_minimum": 7000
+                    },
+                    "Jakarta": {
+                        "harga_per_km": 6500,
+                        "harga_minimum": 16700
+                    }
+                }
+            },
+            "large":
+            {
+                "provinsi":
+                {
+                    "Jawa Tengah": {
+                        "harga_per_km": 7500,
+                        "harga_minimum": 70000
+                    },
+                    "Jawa Timur": {
+                        "harga_per_km": 7500,
+                        "harga_minimum": 70000
+                    },
+                    "Jawa Barat": {
+                        "harga_per_km": 95000,
+                        "harga_minimum": 70000
+                    },
+                    "Banten": {
+                        "harga_per_km": 10000,
+                        "harga_minimum": 95000
+                    },
+                    "Yogyakarta": {
+                        "harga_per_km": 9000,
+                        "harga_minimum": 60000
+                    },
+                    "Jakarta": {
+                        "harga_per_km": 13750,
+                        "harga_minimum": 95000
+                    }
+                }
             }
         }
-    }]
-}
-     
-     {
-    "maxim": 
-    [{
-        "layanan": "Maxim Box sedang", "provinsi": 
-        {
-            "Jawa Tengah": {
-                "harga_per_km": 3000,
-                "harga_minimum": 7000
-            },
-            "Jawa Timur": {
-                "harga_per_km": 2800,
-                "harga_minimum": 10000
-            },
-            "Jawa Barat": {
-                "harga_per_km": 3800,
-                "harga_minimum": 13000
-            },
-            "Banten": {
-                "harga_per_km": 5100,
-                "harga_minimum": 16000
-            },
-            "Yogyakarta": {
-                "harga_per_km": 3500,
-                "harga_minimum": 7000
-            },
-            "Jakarta": {
-                "harga_per_km": 6500,
-                "harga_minimum": 16700
-            }
-        }
-    },
-    {
-        "layanan": "Maxim Box besar", "provinsi": 
-        {
-            "Jawa Tengah": {
-                "harga_per_km": 7500,
-                "harga_minimum": 70000
-            },
-            "Jawa Timur": {
-                "harga_per_km": 7500,
-                "harga_minimum": 70000
-            },
-            "Jawa Barat": {
-                "harga_per_km": 95000,
-                "harga_minimum": 70000
-            },
-            "Banten": {
-                "harga_per_km": 10000,
-                "harga_minimum": 95000
-            },
-            "Yogyakarta": {
-                "harga_per_km": 9000,
-                "harga_minimum": 60000
-            },
-            "Jakarta": {
-                "harga_per_km": 13750,
-                "harga_minimum": 95000
-            }
-        }
-    }]
-}
-     
-     
+    }],
     "gojek": 
     [{
         "layanan": "Go Ride", "provinsi": 
@@ -371,10 +364,7 @@
                 }
             }
         }
-    }]
-}
-
-
+    }],
     "Grab": 
     [{
         "layanan": "Grab Bike", "provinsi": 
