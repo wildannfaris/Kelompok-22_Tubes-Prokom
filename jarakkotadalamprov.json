@@ -1,0 +1,285 @@
+{
+    "Banten": {
+        "Cilegon": {
+            "Serang": 17,
+            "Tangerang": 83,
+            "Tangerang Selatan": 90
+            
+        },
+        "Serang": {
+            "Cilegon": 21,
+            "Tangerang": 66,
+            "Tangerang Selatan": 73
+        },
+        "Tangerang": {
+            "Cilegon": 82,
+            "Serang": 66,
+            "Tangerang Selatan": 20
+        },
+        "Tanggerang Selatan": {
+            "Cilegon": 89,
+            "Serang": 73,
+            "Tangerang": 20
+        }
+    },
+    "Jakarta": {
+        "Jakarta Barat": {
+            "Jakarta Pusat": 11,
+            "Jakarta Selatan": 14,
+            "Jakarta Timur": 19,
+            "Jakarta Utara": 19
+        },
+        "Jakarta Pusat": {
+            "Jakarta Barat": 9,
+            "Jakarta Selatan": 12,
+            "Jakarta Timur": 14,
+            "Jakarta Utara": 10
+        },
+        "Jakarta Selatan": {
+            "Jakarta Barat": 18,
+            "Jakarta Pusat": 12,
+            "Jakarta Timur": 12,
+            "Jakarta Utara": 23
+        },
+        "Jakarta Timur": {
+            "Jakarta Barat": 24,
+            "Jakarta Pusat": 13,
+            "Jakarta Selatan": 15,
+            "Jakarta Utara": 14
+        },
+        "Jakarta Utara": {
+            "Jakarta Barat": 19,
+            "Jakarta Pusat": 9,
+            "Jakarta Selatan": 23,
+            "Jakarta Timur": 13
+        }
+    },
+    "Jawa Barat": {
+        "Bandung": {
+            "Banjar": 148,
+            "Bekasi": 135,
+            "Bogor": 188,
+            "Cimahi": 13,
+            "Cirebon": 239,
+            "Depok": 167,
+            "Sukabumi": 99,
+            "Tasikmalaya": 116
+        },
+        "Banjar": {
+            "Bandung": 148,
+            "Bekasi": 279,
+            "Bogor": 322,
+            "Cimahi": 160,
+            "Cirebon": 105,
+            "Depok": 309,
+            "Sukabumi": 241,
+            "Tasikmalaya": 44
+        },
+        "Bekasi": {
+            "Bandung": 135,
+            "Banjar": 279,
+            "Bogor": 58,
+            "Cimahi": 124,
+            "Cirebon": 200,
+            "Depok": 46,
+            "Sukabumi": 113,
+            "Tasikmalaya": 243
+        },
+        "Bogor": {
+            "Bandung": 188,
+            "Bekasi" : 58,
+            "Banjar": 322,
+            "Cimahi": 174,
+            "Cirebon": 250,
+            "Depok": 45,
+            "Sukabumi": 63,
+            "Tasikmalaya": 290
+        },
+        "Cimahi": {
+            "Bandung": 14,
+            "Bekasi": 128,
+            "Banjar": 156,
+            "Bogor": 173,
+            "Cirebon": 155,
+            "Depok": 158,
+            "Sukabumi": 90,
+            "Tasikmalaya": 123
+        },
+        "Cirebon": {
+            "Bandung": 146,
+            "Banjar": 106,
+            "Bekasi": 202,
+            "Bogor": 251,
+            "Cimahi": 208,
+            "Depok": 236,
+            "Sukabumi": 304,
+            "Tasikmalaya": 108
+        },
+        "Depok": {
+            "Bandung": 168,
+            "Banjar": 308,
+            "Bekasi": 39,
+            "Bogor": 46,
+            "Cimahi": 160,
+            "Cirebon": 236,
+            "Sukabumi": 105,
+            "Tasikmalaya": 276
+        },
+        "Sukabumi": {
+            "Bandung": 100,
+            "Banjar": 240,
+            "Bekasi": 111,
+            "Bogor": 66,
+            "Cimahi": 88,
+            "Cirebon": 277,
+            "Depok": 103,
+            "Tasikmalaya": 208
+        },
+        "Tasikmalaya": {
+            "Bandung": 116,
+            "Banjar": 43,
+            "Bekasi": 243,
+            "Bogor": 292,
+            "Cimahi": 128,
+            "Cirebon": 112,
+            "Depok": 277,
+            "Sukabumi": 209
+        }
+    },
+    "Jawa Tengah": {
+        "Magelang": {
+            "Pekalongan": 169,
+            "Salatiga": 47,
+            "Semarang": 81,
+            "Surakarta": 103,
+            "Tegal": 230
+        },
+        "Pekalongan": {
+            "Magelang": 171,
+            "Salatiga": 138,
+            "Semarang": 99,
+            "Surakarta": 194,
+            "Tegal": 79
+        },
+        "Salatiga": {
+           "Magelang": 48,
+            "Pekalongan": 145,
+            "Semarang": 50,
+            "Surakarta": 61,
+            "Tegal": 207
+        },
+        "Semarang": {
+            "Magelang": 83,
+            "Pekalongan": 99,
+            "Salatiga": 50,
+            "Surakarta": 105,
+            "Tegal": 161
+        },
+        "Surakarta": {
+            "Magelang": 104,
+            "Pekalongan": 193,
+            "Salatiga": 61,
+            "Semarang": 105,
+            "Tegal": 255
+        },
+        "Tegal": {
+           "Magelang": 233,
+            "Pekalongan": 79,
+            "Salatiga": 200,
+            "Semarang": 160,
+            "Surakarta": 254
+        }
+    },
+    "Jawa Timur": {
+        "Batu": {
+            "Blitar": 75,
+            "Kediri": 87,
+            "Madiun": 164,
+            "Malang": 19,
+            "Mojokerto": 61,
+            "Pasuruan": 86,
+            "Probolinggo": 123,
+            "Surabaya": 106
+        },
+        "Blitar": {
+            "Batu": 75,
+            "Kediri": 41,
+            "Madiun": 133,
+            "Malang": 77,
+            "Mojokerto": 101,
+            "Pasuruan": 154,
+            "Probolinggo": 191,
+            "Surabaya": 164
+        },
+        "Kediri": {
+            "Batu": 88,
+            "Blitar": 41,
+            "Madiun": 93,
+            "Malang": 193,
+            "Mojokerto": 80,
+            "Pasuruan": 167,
+            "Probolinggo": 204,
+            "Surabaya": 124
+        },
+        "Madiun": {
+            "Batu": 165,
+            "Blitar": 135,
+            "Kediri": 95,
+            "Malang": 234,
+            "Mojokerto": 122,
+            "Pasuruan": 208,
+            "Probolinggo": 245,
+            "Surabaya": 163
+        },
+        "Malang": {
+           "Batu": 17,
+            "Blitar": 80,
+            "Kediri": 104,
+            "Madiun": 209,
+            "Mojokerto": 120,
+            "Pasuruan": 75,
+            "Probolinggo": 112,
+            "Surabaya": 95
+        },
+        "Mojokerto": {
+           "Batu": 61,
+            "Blitar": 101,
+            "Kediri": 80,
+            "Madiun": 122,
+            "Malang": 120,
+            "Pasuruan": 95,
+            "Probolinggo": 133,
+            "Surabaya": 53
+        },
+        "Pasuruan": {
+           "Batu": 86,
+            "Blitar": 157,
+            "Kediri": 167,
+            "Madiun": 209,
+            "Malang": 75,
+            "Mojokerto": 95,
+            "Probolinggo": 47,
+            "Surabaya": 71
+        },
+        "Probolinggo": {
+           "Batu": 122,
+            "Blitar": 194,
+            "Kediri": 204,
+            "Madiun": 245,
+            "Malang": 112,
+            "Mojokerto": 133,
+            "Pasuruan": 47,
+            "Surabaya": 108
+        },
+        "Surabaya": {
+           "Batu": 104,
+            "Blitar": 163,
+            "Kediri": 124,
+            "Madiun": 163,
+            "Malang": 95,
+            "Mojokerto": 53,
+            "Pasuruan": 71,
+            "Probolinggo": 108
+        }
+    }
+}
