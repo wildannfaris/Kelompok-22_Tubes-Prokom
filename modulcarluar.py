@@ -19,7 +19,7 @@ def get_harga_layanan(layanan, input_provinsi, input_asal, input_tujuan):
     
     provinsi_data = data2.get(input_provinsi)
 
-    if input_provinsi() == "Yogyakarta":
+    if input_provinsi == "Yogyakarta":
         print("Mohon Maaf Layanan Tidak Tersedia Di Provinsi Ini")
         return None
     else:
