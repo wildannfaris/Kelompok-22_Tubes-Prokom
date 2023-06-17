@@ -6,6 +6,8 @@ class UkuranError(Exception):
 class ProvinsiTidakTersediaError(Exception):
     pass
 
+
+
 def get_input():
     data = '''small = 200 × 130 × 120 cm (berat max. 1000kg)
     medium = 200 × 130 × 130 cm (berat max. 2000kg)
@@ -55,9 +57,12 @@ def main():
         harga_MaximBox = layanan_box_dalam_kota("maxim", input_ukuran, input_provinsi, jarak)
         harga_GoBox = layanan_box_dalam_kota("gojek", input_ukuran, input_provinsi, jarak)
         harga_GrabInstant = layanan_box_dalam_kota("Grab", input_ukuran, input_provinsi, jarak)
-        print("Harga Maxim Box: ", harga_MaximBox)
-        print("Harga Go Box: ", harga_GoBox)
-        print("Harga Grab Instant: ", harga_GrabInstant)
+        format_harga_MaximBox = "Rp {:,}".format(harga_MaximBox).replace(',', '.')
+        format_harga_GoBox = "Rp {:,}".format(harga_GoBox).replace(',', '.')
+        format_harga_GrabInstant = "Rp {:,}".format(harga_GrabInstant).replace(',', '.')
+        print("Harga Maxim Box: ", format_harga_MaximBox)
+        print("Harga Go Box: ", format_harga_GoBox)
+        print("Harga Grab Instant: ", format_harga_GrabInstant)
 
     except UkuranError as e:
         print("Terjadi kesalahan:", str(e))
