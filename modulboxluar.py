@@ -1,5 +1,8 @@
 import json
 
+class ukuranerror(Exception):
+    pass
+
 class ProvinsiTidakTersediaError(Exception):
     pass
 
@@ -9,8 +12,6 @@ class AsalTidakTersedia(Exception):
 class TujuanTidakTersedia(Exception):
     pass
 
-class ukuranerror(Exception):
-    pass
 
 def get_input():
     data = '''small = 200 × 130 × 120 cm (berat max. 1000kg)
@@ -80,9 +81,12 @@ def main():
         harga_MaximBox = layananboxluarkota("maxim", input_ukuran, input_provinsi, input_asal, input_tujuan)
         harga_GoBox = layananboxluarkota("gojek", input_ukuran, input_provinsi, input_asal, input_tujuan)
         harga_GrabInstant = layananboxluarkota("Grab", input_ukuran, input_provinsi, input_asal, input_tujuan)
-        print("Harga Maxim Box : ", harga_MaximBox)
-        print("Harga Go Box : ",harga_GoBox)
-        print("Harga Grab Instant : ",harga_GrabInstant)
+        format_harga_MaximBox = "Rp {:,}".format(harga_MaximBox).replace(',', '.')
+        format_harga_GoBox = "Rp {:,}".format(harga_GoBox).replace(',', '.')
+        format_harga_GrabInstant = "Rp {:,}".format(harga_GrabInstant).replace(',', '.')
+        print("Harga Maxim Box : ", format_harga_MaximBox)
+        print("Harga Go Box : ",format_harga_GoBox)
+        print("Harga Grab Instant : ",format_harga_GrabInstant)
 
     except ukuranerror as e:
         print("Terjadi kesalahan : ", str(e))
@@ -97,3 +101,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
