@@ -70,9 +70,12 @@ def main():
             harga_MaximCar = layanan_mobil_luar_kota("maxim", input_provinsi, input_asal, input_tujuan)
             harga_GoCar = layanan_mobil_luar_kota("gojek", input_provinsi, input_asal, input_tujuan)
             harga_GrabCar = layanan_mobil_luar_kota("Grab", input_provinsi, input_asal, input_tujuan)
-            print("Harga Maxim Car : ", harga_MaximCar)
-            print("Harga Go Car : ", harga_GoCar)
-            print("Harga Grab Car : ", harga_GrabCar)
+            format_harga_MaximCar = "Rp {:,}".format(harga_MaximCar).replace(',', '.')
+            format_harga_GoCar = "Rp {:,}".format(harga_GoCar).replace(',', '.')
+            format_harga_GrabCar = "Rp {:,}".format(harga_GrabCar).replace(',', '.')
+            print("Harga Maxim Car : ", format_harga_MaximCar)
+            print("Harga Go Car : ", format_harga_GoCar)
+            print("Harga Grab Car : ", format_harga_GrabCar)
 
     except ProvinsiTidakTersediaError as e:
         print("Terjadi kesalahan : ", str(e))
