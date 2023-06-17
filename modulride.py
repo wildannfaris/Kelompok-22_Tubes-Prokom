@@ -36,9 +36,12 @@ def main():
         harga_MaximBike = layanan_motor("maxim", input_provinsi, jarak)
         harga_GoRide = layanan_motor("gojek", input_provinsi, jarak)
         harga_GrabBike = layanan_motor("Grab", input_provinsi, jarak)
-        print("Harga Maxim Bike : ", harga_MaximBike)
-        print("Harga Go Ride : ", harga_GoRide)
-        print("Harga Grab Bike : ", harga_GrabBike)
+        format_harga_MaximBike = "Rp {:,}".format(harga_MaximBike).replace(',', '.')
+        format_harga_GoRide = "Rp {:,}".format(harga_GoRide).replace(',', '.')
+        format_harga_GrabBike = "Rp {:,}".format(harga_GrabBike).replace(',', '.')
+        print("Harga Maxim Bike : ", format_harga_MaximBike)
+        print("Harga Go Ride : ", format_harga_GoRide)
+        print("Harga Grab Bike : ", format_harga_GrabBike)
     
     except ProvinsiTidakTersediaError as e:
         print("Terjadi kesalah : ", str(e))
