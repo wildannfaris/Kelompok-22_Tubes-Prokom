@@ -38,9 +38,12 @@ def main():
         harga_MaximDelivery = layanan_send("maxim", input_provinsi, jarak)
         harga_GoSend = layanan_send("gojek", input_provinsi, jarak)
         harga_GrabSameDay = layanan_send("Grab", input_provinsi, jarak)
-        print("Harga Maxim Delivery : ", harga_MaximDelivery)
-        print("Harga Go Send : ", harga_GoSend)
-        print("Harga Grab Same Day : ", harga_GrabSameDay)
+        format_harga_MaximDelivery = "Rp {:,}".format(harga_MaximDelivery).replace(',', '.')
+        format_harga_GoSend = "Rp {:,}".format(harga_GoSend).replace(',', '.')
+        format_harga_GrabSameDay = "Rp {:,}".format(harga_GrabSameDay).replace(',', '.')
+        print("Harga Maxim Delivery : ", format_harga_MaximDelivery)
+        print("Harga Go Send : ", format_harga_GoSend)
+        print("Harga Grab Same Day : ", format_harga_GrabSameDay)
 
     except ProvinsiTidakTersediaError as e:
         print("Terjadi kesalah : ", str(e))
